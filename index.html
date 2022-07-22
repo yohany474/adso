@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="funciones.js" ></script>
+    <link href="stilos.css" rel="stylesheet" type="text/css">
+    <title>principal</title>
+</head>
+<body> 
+    <!-- punto_ de  mayor menor intermedio_-->
+    <div class="container">
+        <form name="formulario">
+            <h2>mayor menor intermedio</h2>
+            <p>numero 1</p>
+            <input type="text" name="primero">
+            <p>numero 2</p>
+            <input type="text" name="segundo">
+            <p>numero 3</p>
+            <input type="text" name="tercero">
+            <br>
+            menor:
+            <input type="text" name="resultadoo" size="50" >
+            <br>
+            intermedio:
+            <input type="text" name="resultadooo" size="50" >
+            <br>
+            mayor:
+            <input type="text" name="resultado" size="50" >
+            <br>
+            <input type="button" onclick="mayor_menor()"  size="20" value="calcula aqui" id="boton">
+            <br>
+        </form>
+    </div>
+    <!--mayor menor 4 numeros -->
+    <div class="container">
+        <h3>mayor menor 4 numeros</h3>
+        <form name="formulario_mayor_menor">
+            primer numero
+            <input type="text" name="n1" >
+            <br>
+            segundo numero:
+            <input type="text" name="n2" >
+            <br>
+            tercer numero:
+            <input type="text" name="n3" >
+            <br>
+            cuarto numero:
+            <input type="text" name="n4">
+            <br>
+            numero mayor es: 
+            <input type="text" name="resultadoo" size="25">
+            <br>
+            numero menor es:
+            <input type="text" name="resultado" size="25">
+            <br>
+  
+            <input type="button" onclick="mayor_four()" id="boton" value="aqui tu resultado">
+        </form>
+   </div>
+   <!--multiplicacion-->
+   <div class="container">
+     <form name="multi">
+        <h3>tabla de multiplicar del 2 hasta el 9</h3>
+        <h4>ingrese un numero de 2 a 9</h4>
+        <input type="text" name="numero" size="25">
+        <br>
+        <input type="button" onclick="tabla()" value="resultado">
+        <br>
+        <div id="resultado">
+        </div>
+     </form>     
+   </div>
+   <div class="container">
+    <h3>contador de numeros naturales</h3>
+     <form name="contador">
+        numero:
+        <input type="text" name="num" size="10">
+        <br>
+        <input type="text" name="resultado_natural" size="50">
+        <br>
+        <input type="button" size="10" onclick="cont()" value="boton">
+     </form>
+   </div>
+   <div class="container">
+     <form name="dosnumeros">
+        <h3>mayor menor de dos numeros</h3>
+        numero 1
+        <input type="text" name="n1">
+        <br>
+        numero 2
+        <input type="text" name="n2">
+        <br>
+        numero mayor
+        <input type="text" name="resultado_mayor">
+        <br>
+        numero menor
+        <input type="text" name="resultado_menor">
+        <br>
+        <input type="button" value="calcula" onclick="mayor_dos()">
+
+     </form>
+   </div>
+    <!--_conversor de metros a km  decametros decimetros-->
+    <div class="container">
+        <form name="conversor">
+            <h2>convierte mt a km DM decimetros</h2>
+            <p>metros</p>
+            <input type="text" name="numero_uno">
+            <br>
+            <input type="text" name="resultado_conversor">
+            <br>
+            <br>
+            <input type="button" onclick="km()"  value="kilometro">
+            <input type="button" onclick="DM()"  value="decametro">
+            <input type="button" onclick="decimetros()"  value="decimetro">
+        </form>
+    </div>
+</body>
+</html>

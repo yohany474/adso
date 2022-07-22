@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#form{
+    margin-top: 40px;
+    width: 40%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(181, 179, 179);
+    box-shadow: 1px 8px 6px 4px #0aa3ae;
+}
+#form h2{
+    box-shadow: 3px 7px 4px 9px #00c3ca;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+}
+#form input{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 30px;
+    text-align: left;
+    width: 490px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+
+}
+.container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: 2px 3px 2px 4px #0aa3ae;
+}
+#resultado{
+    height: 300px;
+    width: 100px;
+}
